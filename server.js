@@ -56,7 +56,7 @@ app.use(express.json()); // Middleware to parse JSON
 // Use Routes
 app.use("/api/bookings", bookingRoutes);
 app.use("/api/availableRooms", bookingRoutes);
-// app.use("/api", otpRoutes);
+// app.use("/api", otpRoutes);     
 
 app.get("/", function (req, res) {
   res.send("Hello World, my name is Deepak");
